@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challengeweb3parte</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <h2 class="navbar-brand" href="#">Locadora de CarrosBR</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="">Benefícios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Sobre a empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Atendimento</a>
+                    </li>
+                </ul>
+                <span class="navbar-text px-2">
+                    <p>
+                        <i class="fa-brands fa-whatsapp" style="color: #2bb918;"></i>
+                        <a href="">Fale conosco</a>
+                    </p>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+        <!--imagem capa de carro no inicio<!---->
+        <div class="card mb-3" style="height: 20em; background-position: center;">
+            <img src="./assets/imagens/capa carro.jpg" class="card-img-top" alt="Veículos">
+            <div class="card-body">
+            </div>
+        </div>
+        <br>
+
+        <!--linhas coloridas-->
+        <span class="placeholder col-12 bg-danger"></span>
+        <span class="placeholder col-12 bg-warning"></span>
+        <span class="placeholder col-12 bg-dark"></span>
+        <br>
+
+        <!--titulo para escolher acessório-->
+        <div>
+            <h4 style="text-align: center;""><em>Pacote <b style=" color:#e00909 ;">especial</b> escolhido</em></h4>
+            <h4 style=" text-align: center;""><em>Escolha seu acessório</em></h4>
+        </div>
+        <br>
+
+        <!-- Card com Produtos do pacote-->
+        <div class=" card-group">
+                <div class="card">
+                    <img src="./assets/imagens/produto óleo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Kit óleo de motor</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/imagens/capa para bancos.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Capa para bancos</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/imagens/tapete carro.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tapetes para carro</h5>
+                    </div>
+                </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="./assets/imagens/Purificador cheiro.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cheirinho purificador goma de mascar</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/imagens/pneus.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pneus</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/imagens/calha2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Calha proteção para chuva</h5>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!--Lista de opções para escolher no desconto do produto do pacote-->
+        <ul class="list-group">
+            <h5>Escolha em <b>até 3</b> opções</h5>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                <label class="form-check-label" for="firstCheckbox">Kit óleo de motor</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                <label class="form-check-label" for="secondCheckbox">Capa para bancos</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                <label class="form-check-label" for="thirdCheckbox">Tapetes para carro</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                <label class="form-check-label" for="thirdCheckbox">Cheirinho purificador goma de mascar</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                <label class="form-check-label" for="thirdCheckbox">Pneus</label>
+            </li>
+            <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                <label class="form-check-label" for="thirdCheckbox">Calha proteção para chuva</label>
+            </li>
+        </ul>
+
+        <!--linhas coloridas-->
+        <span class="placeholder col-12 bg-danger"></span>
+        <span class="placeholder col-12 bg-warning"></span>
+        <span class="placeholder col-12 bg-dark"></span>
+        <br>
+        <br>
+
+        <!--Título para cadastro-->
+        <div>
+            <h4 style=" text-align: center;""><em>Cadastre-se</em></h4>
+        </div>
+
+        <!--Cadastro para acesso antes de realizar a venda ou aluguel-->
+        <form class=" row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">CPF ou CNPJ</label>
+                    <input type="text" class="form-control" id="inputAddress">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Cidade/Estado</label>
+                    <input type="text" class="form-control" id="inputAddress2">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Endereço</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Forma de pagamento</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Débito</option>
+                        <option>Crédito á vista</option>
+                        <option>Parcelado até 60x</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Escolha a data do aluguel</label>
+                    <input id="date" type="date" />
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Lembrar - me
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Pronto</button>
+                </div>
+                </form>
+                <br>
+
+                <!--linhas coloridas-->
+                <span class="placeholder col-12 bg-danger"></span>
+                <span class="placeholder col-12 bg-warning"></span>
+                <span class="placeholder col-12 bg-dark"></span>
+                <br>
+                <br>
+
+                <!-- Recado e Botão para alugar-->
+                <div class="container-fluid d-flex flex-wrap border border-dark-subtle">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/imagens/Vendedora com chave apresenta um carro novo no centro da concessionária _ Foto Premium.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Venha e escolha seu veículo,com modelos variáveis do seu gosto, tendo
+                                maior
+                                conforto para você e sua família.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/imagens/Conversas sobre o carro.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">E saia daqui com explicações sobre seu veiculo desejado e tirando todas
+                                as suas
+                                dúvidas.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/imagens/familia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><b>Locadoras de CarroBR</b> tem benefícios com aluguel e venda. Escolha
+                                o
+                                automóvel
+                                ídeal para você.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Localização dos alugueis-->
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <h4>Aluguel para todo o Brasil</h4>
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aluguel no <b>Suldeste</b>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Aluguel em São Paulo</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Guarulhos</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Belo Horizonte</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Osasco</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Judiaí</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Campinas</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aluguel no <b>Nordeste</b>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Aluguel em Salvador</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Recife</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em João Pessoa</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Aracaju</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Natal</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Maceió</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aluguel no <b>Norte</b>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Aluguel em Santarém</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Palmas</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Belém</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Porto Velho</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Macapá</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Boa Vista</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aluguel no <b>Sul</b>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Aluguel em Curitiba</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Porto Alegre</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Florianópolis</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Joinville</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Londrina</a></li>
+                                <li><a class="dropdown-item" href="#">Caxias do Sul</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aluguel no <b>Centro Oeste</b>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Aluguel em Brasília</a></li>
+                                <li><a class="dropdown-item" href="#">Alugel em cuiabá</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Goiâna</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Campo Grande</a></li>
+                                <li><a class="dropdown-item" href="#">Aluguel em Rondonópolis</a></li>
+                                <li><a class="dropdown-item" href="#">Alugel em Anápolis</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <!--rodapé-->
+                <div class="card-group">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Locadora de CarrosBR</h5>
+                            <ul>
+                                <li>
+                                    <button type="button" class="btn btn-link">Sobre a Locadora</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-link">A loja mais próxima de você</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-link">Relação com investidores</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-link">Trabalhe conosco</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--Card atendimento ao cliente-->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Atendimento</h5>
+                            <ul>
+                                <li>
+                                    <button type="button" class="btn btn-link">Perguntas frequentes</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-link">Fale conosco</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-link">Ouvidoria</button>
+                                </li>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h6> Atendimento ao cliente</h6>
+                            <i class="fa-brands fa-whatsapp" style="color: #2bb918;"></i>
+                            <button type="button" class=" btn btn-primary">0800 0009 0000</button>
+                            <h6> Central de reserva 24h</h6>
+                            <i class="fa-brands fa-whatsapp" style="color: #2bb918;"></i>
+                            <button type="button" class=" btn btn-primary">0800 0008 0000</button>
+                            <br>
+                            <br>
+                            <i class="fa-brands fa-facebook fa-2xl" style="color: #0659c6;"></i>
+                            <i class="fa-brands fa-instagram fa-2xl" style="color: #cb0696;"></i>
+                            <i class="fa-brands fa-twitter fa-2xl" style="color: #0773a2;"></i>
+                            <i class="fa-brands fa-linkedin fa-2xl" style="color: #293f66;"></i>
+                        </div>
+                    </div>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+                        crossorigin="anonymous"></script>
+</body>
+
+</html>
